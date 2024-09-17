@@ -28,7 +28,7 @@ export default function App() {
         onUploadSuccess={onUploadSuccess}
         onUploadError={onUploadError}
         maxFileCount={1}
-        path={`public/`}
+        path={`pictures/`}
         acceptedFileTypes={["image/*"]}
       />
     </main>
